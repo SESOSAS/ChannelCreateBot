@@ -1,6 +1,6 @@
 const {Client} = require("discord.js");
 const bot = new Client();
-const config = require("./config.json");
+const config = require("../config.json");
 bot.on("message", message => {
     if(message.guild && !message.author.bot){
         if(message.content.startsWith(config.prefix+"create")){
