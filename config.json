@@ -1,4 +1,8 @@
 {
     "token": "token-here",
-    "prefix": "!"
+    "prefix": "!",
+    "server": {
+        "category": "Own Channels",
+        "channel": "Join to Create"
+    }
 }
